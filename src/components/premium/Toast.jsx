@@ -1,0 +1,1 @@
+export default function Toast({children, className='' }){return <div className={`premium-card p-4 ${className}`}><div className="font-black text-gold-800">Toast</div>{children&&<div className="mt-2">{children}</div>}</div>}

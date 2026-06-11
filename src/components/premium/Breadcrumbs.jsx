@@ -1,0 +1,1 @@
+export default function Breadcrumbs({children, className='' }){return <div className={`premium-card p-4 ${className}`}><div className="font-black text-gold-800">Breadcrumbs</div>{children&&<div className="mt-2">{children}</div>}</div>}

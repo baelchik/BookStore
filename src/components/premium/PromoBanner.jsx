@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export default function PromoBanner(){return <section className="rounded-[2rem] bg-gradient-gold p-8 text-white shadow-gold-glow md:p-12"><h2 className="text-4xl font-black">Промокоды для демонстрации</h2><p className="mt-3 text-lg">WELCOME20, SAVE10, SUMMER30 работают в корзине.</p><Link to="/cart" className="mt-6 inline-block rounded-2xl bg-white px-6 py-3 font-black text-gold-700">Проверить корзину</Link></section>}

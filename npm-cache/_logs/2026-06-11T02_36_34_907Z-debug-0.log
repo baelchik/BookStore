@@ -1,0 +1,330 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.13.0
+3 silly config load:file:C:\Users\User\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\bookstore-premium\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i
+8 verbose argv "i"
+9 verbose logfile logs-max:10 dir:D:\bookstore-premium\npm-cache\_logs\2026-06-11T02_36_34_907Z-
+10 verbose logfile D:\bookstore-premium\npm-cache\_logs\2026-06-11T02_36_34_907Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\lightningcss-win32-x64-msvc' ]
+16 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\tslib' ]
+17 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\@emnapi\\wasi-threads' ]
+18 silly reify mark retired [
+18 silly reify   'D:\\bookstore-premium\\node_modules\\@rolldown\\binding-win32-x64-msvc'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'D:\\bookstore-premium\\node_modules\\tailwindcss',
+19 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind',
+19 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.cmd',
+19 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.ps1',
+19 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss',
+19 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.cmd',
+19 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.ps1'
+19 silly reify ]
+20 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\react-router-dom' ]
+21 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\react-dom' ]
+22 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\postcss' ]
+23 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\axios' ]
+24 silly reify mark retired [
+24 silly reify   'D:\\bookstore-premium\\node_modules\\vite',
+24 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite',
+24 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.cmd',
+24 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.ps1'
+24 silly reify ]
+25 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\react' ]
+26 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\@vitejs\\plugin-react' ]
+27 silly reify mark retired [
+27 silly reify   'D:\\bookstore-premium\\node_modules\\autoprefixer',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.cmd',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.ps1'
+27 silly reify ]
+28 silly reify moves {
+28 silly reify   'D:\\bookstore-premium\\node_modules\\lightningcss-win32-x64-msvc': 'D:\\bookstore-premium\\node_modules\\.lightningcss-win32-x64-msvc-svS7jd6a',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\tslib': 'D:\\bookstore-premium\\node_modules\\.tslib-XlwJwt63',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\@emnapi\\wasi-threads': 'D:\\bookstore-premium\\node_modules\\@emnapi\\.wasi-threads-5byk0c2b',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\@rolldown\\binding-win32-x64-msvc': 'D:\\bookstore-premium\\node_modules\\@rolldown\\.binding-win32-x64-msvc-C4nf3zwu',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\tailwindcss': 'D:\\bookstore-premium\\node_modules\\.tailwindcss-NYUPtDOW',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwind-LkSspKkM',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwind.cmd-hqxFDQfW',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwind.ps1-1SBnRPkN',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwindcss-qfvApWs7',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwindcss.cmd-o207rETI',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwindcss.ps1-huxBVh25',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\react-router-dom': 'D:\\bookstore-premium\\node_modules\\.react-router-dom-J9WBcb0L',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\react-dom': 'D:\\bookstore-premium\\node_modules\\.react-dom-yHFbdzXX',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\postcss': 'D:\\bookstore-premium\\node_modules\\.postcss-MzuR5M4N',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\axios': 'D:\\bookstore-premium\\node_modules\\.axios-DLUKtOrG',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\vite': 'D:\\bookstore-premium\\node_modules\\.vite-dXAymRZ7',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite': 'D:\\bookstore-premium\\node_modules\\.bin\\.vite-2hjOlMLK',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.vite.cmd-g4UDBUZo',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.vite.ps1-hDQTpBpC',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\react': 'D:\\bookstore-premium\\node_modules\\.react-juCNKcVy',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\@vitejs\\plugin-react': 'D:\\bookstore-premium\\node_modules\\@vitejs\\.plugin-react-sOWQBoaj',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\autoprefixer': 'D:\\bookstore-premium\\node_modules\\.autoprefixer-LmyW7W3Z',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer': 'D:\\bookstore-premium\\node_modules\\.bin\\.autoprefixer-X6aTEvre',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.autoprefixer.cmd-8VKAOw8n',
+28 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.autoprefixer.ps1-UEMy0AGK'
+28 silly reify }
+29 silly audit bulk request {
+29 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+29 silly audit   '@emnapi/core': [ '1.10.0' ],
+29 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+29 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+29 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+29 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+29 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+29 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+29 silly audit   '@napi-rs/wasm-runtime': [ '1.1.5' ],
+29 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+29 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+29 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+29 silly audit   '@oxc-project/types': [ '0.133.0' ],
+29 silly audit   '@rolldown/binding-android-arm64': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.3' ],
+29 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.3' ],
+29 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+29 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+29 silly audit   '@vitejs/plugin-react': [ '6.0.2' ],
+29 silly audit   'agent-base': [ '6.0.2' ],
+29 silly audit   'any-promise': [ '1.3.0' ],
+29 silly audit   anymatch: [ '3.1.3' ],
+29 silly audit   arg: [ '5.0.2' ],
+29 silly audit   asynckit: [ '0.4.0' ],
+29 silly audit   autoprefixer: [ '10.5.0' ],
+29 silly audit   axios: [ '1.17.0' ],
+29 silly audit   'baseline-browser-mapping': [ '2.10.35' ],
+29 silly audit   'binary-extensions': [ '2.3.0' ],
+29 silly audit   braces: [ '3.0.3' ],
+29 silly audit   browserslist: [ '4.28.2' ],
+29 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+29 silly audit   'camelcase-css': [ '2.0.1' ],
+29 silly audit   'caniuse-lite': [ '1.0.30001797' ],
+29 silly audit   chokidar: [ '3.6.0' ],
+29 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+29 silly audit   'combined-stream': [ '1.0.8' ],
+29 silly audit   commander: [ '4.1.1' ],
+29 silly audit   cookie: [ '1.1.1' ],
+29 silly audit   cssesc: [ '3.0.0' ],
+29 silly audit   debug: [ '4.4.3' ],
+29 silly audit   'delayed-stream': [ '1.0.0' ],
+29 silly audit   'detect-libc': [ '2.1.2' ],
+29 silly audit   didyoumean: [ '1.2.2' ],
+29 silly audit   dlv: [ '1.1.3' ],
+29 silly audit   'dunder-proto': [ '1.0.1' ],
+29 silly audit   'electron-to-chromium': [ '1.5.371' ],
+29 silly audit   'es-define-property': [ '1.0.1' ],
+29 silly audit   'es-errors': [ '1.3.0' ],
+29 silly audit   'es-object-atoms': [ '1.1.2' ],
+29 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+29 silly audit   escalade: [ '3.2.0' ],
+29 silly audit   'fast-glob': [ '3.3.3' ],
+29 silly audit   fastq: [ '1.20.1' ],
+29 silly audit   'fill-range': [ '7.1.1' ],
+29 silly audit   'follow-redirects': [ '1.16.0' ],
+29 silly audit   'form-data': [ '4.0.5' ],
+29 silly audit   'fraction.js': [ '5.3.4' ],
+29 silly audit   fsevents: [ '2.3.3' ],
+29 silly audit   'function-bind': [ '1.1.2' ],
+29 silly audit   'get-intrinsic': [ '1.3.0' ],
+29 silly audit   'get-proto': [ '1.0.1' ],
+29 silly audit   gopd: [ '1.2.0' ],
+29 silly audit   'has-symbols': [ '1.1.0' ],
+29 silly audit   'has-tostringtag': [ '1.0.2' ],
+29 silly audit   hasown: [ '2.0.4' ],
+29 silly audit   'https-proxy-agent': [ '5.0.1' ],
+29 silly audit   'is-binary-path': [ '2.1.0' ],
+29 silly audit   'is-core-module': [ '2.16.2' ],
+29 silly audit   'is-extglob': [ '2.1.1' ],
+29 silly audit   'is-glob': [ '4.0.3' ],
+29 silly audit   'is-number': [ '7.0.0' ],
+29 silly audit   jiti: [ '1.21.7' ],
+29 silly audit   lightningcss: [ '1.32.0' ],
+29 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+29 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+29 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+29 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+29 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+29 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+29 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+29 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+29 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+29 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+29 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+29 silly audit   lilconfig: [ '3.1.3' ],
+29 silly audit   'lines-and-columns': [ '1.2.4' ],
+29 silly audit   'math-intrinsics': [ '1.1.0' ],
+29 silly audit   merge2: [ '1.4.1' ],
+29 silly audit   micromatch: [ '4.0.8' ],
+29 silly audit   'mime-db': [ '1.52.0' ],
+29 silly audit   'mime-types': [ '2.1.35' ],
+29 silly audit   ms: [ '2.1.3' ],
+29 silly audit   mz: [ '2.7.0' ],
+29 silly audit   nanoid: [ '3.3.12' ],
+29 silly audit   'node-releases': [ '2.0.47' ],
+29 silly audit   'normalize-path': [ '3.0.0' ],
+29 silly audit   'object-assign': [ '4.1.1' ],
+29 silly audit   'object-hash': [ '3.0.0' ],
+29 silly audit   'path-parse': [ '1.0.7' ],
+29 silly audit   picocolors: [ '1.1.1' ],
+29 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+29 silly audit   pify: [ '2.3.0' ],
+29 silly audit   pirates: [ '4.0.7' ],
+29 silly audit   postcss: [ '8.5.15' ],
+29 silly audit   'postcss-import': [ '15.1.0' ],
+29 silly audit   'postcss-js': [ '4.1.0' ],
+29 silly audit   'postcss-load-config': [ '6.0.1' ],
+29 silly audit   'postcss-nested': [ '6.2.0' ],
+29 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+29 silly audit   'postcss-value-parser': [ '4.2.0' ],
+29 silly audit   'proxy-from-env': [ '2.1.0' ],
+29 silly audit   'queue-microtask': [ '1.2.3' ],
+29 silly audit   react: [ '19.2.7' ],
+29 silly audit   'react-dom': [ '19.2.7' ],
+29 silly audit   'react-router': [ '7.17.0' ],
+29 silly audit   'react-router-dom': [ '7.17.0' ],
+29 silly audit   'read-cache': [ '1.0.0' ],
+29 silly audit   readdirp: [ '3.6.0' ],
+29 silly audit   resolve: [ '1.22.12' ],
+29 silly audit   reusify: [ '1.1.0' ],
+29 silly audit   rolldown: [ '1.0.3' ],
+29 silly audit   'run-parallel': [ '1.2.0' ],
+29 silly audit   scheduler: [ '0.27.0' ],
+29 silly audit   'set-cookie-parser': [ '2.7.2' ],
+29 silly audit   'source-map-js': [ '1.2.1' ],
+29 silly audit   sucrase: [ '3.35.1' ],
+29 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+29 silly audit   tailwindcss: [ '3.4.19' ],
+29 silly audit   thenify: [ '3.3.1' ],
+29 silly audit   'thenify-all': [ '1.6.0' ],
+29 silly audit   tinyglobby: [ '0.2.17' ],
+29 silly audit   fdir: [ '6.5.0' ],
+29 silly audit   'to-regex-range': [ '5.0.1' ],
+29 silly audit   'ts-interface-checker': [ '0.1.13' ],
+29 silly audit   tslib: [ '2.8.1' ],
+29 silly audit   'update-browserslist-db': [ '1.2.3' ],
+29 silly audit   'util-deprecate': [ '1.0.2' ],
+29 silly audit   vite: [ '8.0.16' ]
+29 silly audit }
+30 http cache @vitejs/plugin-react@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 0ms (cache hit)
+31 http cache autoprefixer@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz 0ms (cache hit)
+32 http cache react@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react/-/react-19.2.7.tgz 0ms (cache hit)
+33 http cache axios@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/axios/-/axios-1.17.0.tgz 0ms (cache hit)
+34 http cache vite@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/vite/-/vite-8.0.16.tgz 0ms (cache hit)
+35 http cache react-dom@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-dom/-/react-dom-19.2.7.tgz 0ms (cache hit)
+36 http cache react-router-dom@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-router-dom/-/react-router-dom-7.17.0.tgz 0ms (cache hit)
+37 http cache postcss@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/postcss/-/postcss-8.5.15.tgz 0ms (cache hit)
+38 http cache @rolldown/binding-win32-x64-msvc@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz 0ms (cache hit)
+39 http cache tailwindcss@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/tailwindcss/-/tailwindcss-3.4.19.tgz 0ms (cache hit)
+40 http cache picomatch@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+41 silly tarball no local data for @vitejs/plugin-react@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz. Extracting by manifest.
+42 silly tarball no local data for autoprefixer@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz. Extracting by manifest.
+43 silly tarball no local data for react@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react/-/react-19.2.7.tgz. Extracting by manifest.
+44 silly tarball no local data for axios@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/axios/-/axios-1.17.0.tgz. Extracting by manifest.
+45 silly tarball no local data for vite@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/vite/-/vite-8.0.16.tgz. Extracting by manifest.
+46 silly tarball no local data for react-dom@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-dom/-/react-dom-19.2.7.tgz. Extracting by manifest.
+47 http cache lightningcss-win32-x64-msvc@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 0ms (cache hit)
+48 silly tarball no local data for react-router-dom@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-router-dom/-/react-router-dom-7.17.0.tgz. Extracting by manifest.
+49 silly tarball no local data for postcss@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/postcss/-/postcss-8.5.15.tgz. Extracting by manifest.
+50 silly tarball no local data for @rolldown/binding-win32-x64-msvc@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz. Extracting by manifest.
+51 silly tarball no local data for tailwindcss@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/tailwindcss/-/tailwindcss-3.4.19.tgz. Extracting by manifest.
+52 silly tarball no local data for picomatch@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+53 silly tarball no local data for lightningcss-win32-x64-msvc@https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz. Extracting by manifest.
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 657ms
+55 silly audit report {}
+56 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz attempt 1 failed with ETIMEDOUT
+57 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-router-dom/-/react-router-dom-7.17.0.tgz attempt 1 failed with ETIMEDOUT
+58 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/axios/-/axios-1.17.0.tgz attempt 1 failed with ETIMEDOUT
+59 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/picomatch/-/picomatch-4.0.4.tgz attempt 1 failed with ETIMEDOUT
+60 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/tailwindcss/-/tailwindcss-3.4.19.tgz attempt 1 failed with ETIMEDOUT
+61 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-dom/-/react-dom-19.2.7.tgz attempt 1 failed with ETIMEDOUT
+62 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz attempt 1 failed with ETIMEDOUT
+63 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/postcss/-/postcss-8.5.15.tgz attempt 1 failed with ETIMEDOUT
+64 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz attempt 1 failed with ETIMEDOUT
+65 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/vite/-/vite-8.0.16.tgz attempt 1 failed with ETIMEDOUT
+66 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz attempt 1 failed with ETIMEDOUT
+67 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react/-/react-19.2.7.tgz attempt 1 failed with ETIMEDOUT
+68 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz attempt 2 failed with ETIMEDOUT
+69 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-router-dom/-/react-router-dom-7.17.0.tgz attempt 2 failed with ETIMEDOUT
+70 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz attempt 2 failed with ETIMEDOUT
+71 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react/-/react-19.2.7.tgz attempt 2 failed with ETIMEDOUT
+72 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz attempt 2 failed with ETIMEDOUT
+73 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/tailwindcss/-/tailwindcss-3.4.19.tgz attempt 2 failed with ETIMEDOUT
+74 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-dom/-/react-dom-19.2.7.tgz attempt 2 failed with ETIMEDOUT
+75 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/vite/-/vite-8.0.16.tgz attempt 2 failed with ETIMEDOUT
+76 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/axios/-/axios-1.17.0.tgz attempt 2 failed with ETIMEDOUT
+77 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/picomatch/-/picomatch-4.0.4.tgz attempt 2 failed with ETIMEDOUT
+78 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz attempt 2 failed with ETIMEDOUT
+79 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/postcss/-/postcss-8.5.15.tgz attempt 2 failed with ETIMEDOUT
+80 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz attempt 3 failed with ETIMEDOUT
+81 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-router-dom/-/react-router-dom-7.17.0.tgz attempt 3 failed with ETIMEDOUT
+82 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz attempt 3 failed with ETIMEDOUT
+83 verbose reify failed optional dependency D:\bookstore-premium\node_modules\lightningcss-win32-x64-msvc
+84 silly reify mark deleted [ 'D:\\bookstore-premium\\node_modules\\lightningcss-win32-x64-msvc' ]
+85 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react-dom/-/react-dom-19.2.7.tgz attempt 3 failed with ETIMEDOUT
+86 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz attempt 3 failed with ETIMEDOUT
+87 verbose reify failed optional dependency D:\bookstore-premium\node_modules\@rolldown\binding-win32-x64-msvc
+88 silly reify mark deleted [
+88 silly reify   'D:\\bookstore-premium\\node_modules\\@rolldown\\binding-win32-x64-msvc'
+88 silly reify ]
+89 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/picomatch/-/picomatch-4.0.4.tgz attempt 3 failed with ETIMEDOUT
+90 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/axios/-/axios-1.17.0.tgz attempt 3 failed with ETIMEDOUT
+91 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/postcss/-/postcss-8.5.15.tgz attempt 3 failed with ETIMEDOUT
+92 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/vite/-/vite-8.0.16.tgz attempt 3 failed with ETIMEDOUT
+93 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/tailwindcss/-/tailwindcss-3.4.19.tgz attempt 3 failed with ETIMEDOUT
+94 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/react/-/react-19.2.7.tgz attempt 3 failed with ETIMEDOUT
+95 http fetch GET https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz attempt 3 failed with ETIMEDOUT
+96 verbose type system
+97 verbose stack FetchError: request to https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz failed, reason: connect ETIMEDOUT 10.192.71.42:443
+97 verbose stack     at ClientRequest.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+97 verbose stack     at ClientRequest.emit (node:events:508:28)
+97 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+97 verbose stack     at _destroy (node:_http_client:962:9)
+97 verbose stack     at onSocketNT (node:_http_client:982:5)
+97 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+98 error code ETIMEDOUT
+99 error syscall connect
+100 error errno ETIMEDOUT
+101 error network request to https://packages.applied-caas-gateway1.internal.api.openai.org/artifactory/api/npm/npm-public/autoprefixer/-/autoprefixer-10.5.0.tgz failed, reason: connect ETIMEDOUT 10.192.71.42:443
+102 error network This is a problem related to network connectivity.
+102 error network In most cases you are behind a proxy or have bad network settings.
+102 error network
+102 error network If you are behind a proxy, please make sure that the 'proxy' config is set properly.  See: 'npm help config'
+103 silly unfinished npm timer reify 1781145395884
+104 silly unfinished npm timer reify:unpack 1781145396062
+105 silly unfinished npm timer reifyNode:node_modules/autoprefixer 1781145396062
+106 silly unfinished npm timer reifyNode:node_modules/@vitejs/plugin-react 1781145396062
+107 silly unfinished npm timer reifyNode:node_modules/react 1781145396062
+108 silly unfinished npm timer reifyNode:node_modules/vite 1781145396062
+109 silly unfinished npm timer reifyNode:node_modules/vite/node_modules/picomatch 1781145396062
+110 silly unfinished npm timer reifyNode:node_modules/axios 1781145396062
+111 silly unfinished npm timer reifyNode:node_modules/postcss 1781145396062
+112 silly unfinished npm timer reifyNode:node_modules/react-dom 1781145396062
+113 silly unfinished npm timer reifyNode:node_modules/react-router-dom 1781145396062
+114 silly unfinished npm timer reifyNode:node_modules/tailwindcss 1781145396062
+115 verbose cwd D:\bookstore-premium
+116 verbose os Windows_NT 10.0.22631
+117 verbose node v24.13.0
+118 verbose npm  v11.16.0
+119 verbose exit 1
+120 verbose code 1
+121 error A complete log of this run can be found in: D:\bookstore-premium\npm-cache\_logs\2026-06-11T02_36_34_907Z-debug-0.log

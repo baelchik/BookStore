@@ -1,0 +1,29 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.13.0
+3 silly config load:file:C:\Users\User\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\User\.npmrc
+5 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install pnpm
+7 verbose argv "install" "--global" "pnpm"
+8 verbose logfile logs-max:10 dir:D:\bookstore-premium\npm-cache\_logs\2026-06-10T17_53_52_594Z-
+9 verbose logfile D:\bookstore-premium\npm-cache\_logs\2026-06-10T17_53_52_594Z-debug-0.log
+10 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest pnpm@*
+14 silly packumentCache full:https://registry.npmjs.org/pnpm cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/pnpm 969ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/pnpm set size:undefined disposed:false
+17 silly placeDep ROOT pnpm@11.5.3 OK for:  want: *
+18 silly reify moves {}
+19 http cache pnpm@https://registry.npmjs.org/pnpm/-/pnpm-11.5.3.tgz 0ms (cache hit)
+20 silly tarball no local data for pnpm@https://registry.npmjs.org/pnpm/-/pnpm-11.5.3.tgz. Extracting by manifest.
+21 http fetch GET 200 https://registry.npmjs.org/pnpm/-/pnpm-11.5.3.tgz 2226ms (cache miss)
+22 silly ADD node_modules/pnpm
+23 verbose cwd D:\bookstore-premium
+24 verbose os Windows_NT 10.0.22631
+25 verbose node v24.13.0
+26 verbose npm  v11.16.0
+27 verbose exit 0
+28 info ok

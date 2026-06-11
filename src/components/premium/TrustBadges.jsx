@@ -1,0 +1,1 @@
+export default function TrustBadges(){return <div className="grid gap-4 md:grid-cols-3">{['Быстрая доставка','Безопасная оплата','Отзывы и рейтинг'].map(x=><div key={x} className="premium-card p-5 font-black text-gold-800">✓ {x}</div>)}</div>}

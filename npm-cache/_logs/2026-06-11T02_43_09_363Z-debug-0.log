@@ -1,0 +1,286 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.13.0
+3 silly config load:file:C:\Users\User\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\bookstore-premium\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i
+8 verbose argv "i" "--registry" "https://registry.npmjs.org/"
+9 verbose logfile logs-max:10 dir:D:\bookstore-premium\npm-cache\_logs\2026-06-11T02_43_09_363Z-
+10 verbose logfile D:\bookstore-premium\npm-cache\_logs\2026-06-11T02_43_09_363Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 silly idealTree buildDeps
+16 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\lightningcss-win32-x64-msvc' ]
+17 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\tslib' ]
+18 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\@emnapi\\wasi-threads' ]
+19 silly reify mark retired [
+19 silly reify   'D:\\bookstore-premium\\node_modules\\@rolldown\\binding-win32-x64-msvc'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'D:\\bookstore-premium\\node_modules\\autoprefixer',
+20 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer',
+20 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.cmd',
+20 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.ps1'
+20 silly reify ]
+21 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\react' ]
+22 silly reify mark retired [
+22 silly reify   'D:\\bookstore-premium\\node_modules\\vite',
+22 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite',
+22 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.cmd',
+22 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.ps1'
+22 silly reify ]
+23 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\axios' ]
+24 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\postcss' ]
+25 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\react-dom' ]
+26 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\react-router-dom' ]
+27 silly reify mark retired [
+27 silly reify   'D:\\bookstore-premium\\node_modules\\tailwindcss',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.cmd',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.ps1',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.cmd',
+27 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.ps1'
+27 silly reify ]
+28 silly reify mark retired [ 'D:\\bookstore-premium\\node_modules\\@vitejs\\plugin-react' ]
+29 silly reify moves {
+29 silly reify   'D:\\bookstore-premium\\node_modules\\lightningcss-win32-x64-msvc': 'D:\\bookstore-premium\\node_modules\\.lightningcss-win32-x64-msvc-svS7jd6a',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\tslib': 'D:\\bookstore-premium\\node_modules\\.tslib-XlwJwt63',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\@emnapi\\wasi-threads': 'D:\\bookstore-premium\\node_modules\\@emnapi\\.wasi-threads-5byk0c2b',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\@rolldown\\binding-win32-x64-msvc': 'D:\\bookstore-premium\\node_modules\\@rolldown\\.binding-win32-x64-msvc-C4nf3zwu',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\autoprefixer': 'D:\\bookstore-premium\\node_modules\\.autoprefixer-LmyW7W3Z',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer': 'D:\\bookstore-premium\\node_modules\\.bin\\.autoprefixer-X6aTEvre',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.autoprefixer.cmd-8VKAOw8n',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\autoprefixer.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.autoprefixer.ps1-UEMy0AGK',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\react': 'D:\\bookstore-premium\\node_modules\\.react-juCNKcVy',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\vite': 'D:\\bookstore-premium\\node_modules\\.vite-dXAymRZ7',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite': 'D:\\bookstore-premium\\node_modules\\.bin\\.vite-2hjOlMLK',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.vite.cmd-g4UDBUZo',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\vite.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.vite.ps1-hDQTpBpC',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\axios': 'D:\\bookstore-premium\\node_modules\\.axios-DLUKtOrG',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\postcss': 'D:\\bookstore-premium\\node_modules\\.postcss-MzuR5M4N',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\react-dom': 'D:\\bookstore-premium\\node_modules\\.react-dom-yHFbdzXX',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\react-router-dom': 'D:\\bookstore-premium\\node_modules\\.react-router-dom-J9WBcb0L',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\tailwindcss': 'D:\\bookstore-premium\\node_modules\\.tailwindcss-NYUPtDOW',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwind-LkSspKkM',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwind.cmd-hqxFDQfW',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwind.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwind.ps1-1SBnRPkN',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwindcss-qfvApWs7',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.cmd': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwindcss.cmd-o207rETI',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\.bin\\tailwindcss.ps1': 'D:\\bookstore-premium\\node_modules\\.bin\\.tailwindcss.ps1-huxBVh25',
+29 silly reify   'D:\\bookstore-premium\\node_modules\\@vitejs\\plugin-react': 'D:\\bookstore-premium\\node_modules\\@vitejs\\.plugin-react-sOWQBoaj'
+29 silly reify }
+30 silly audit bulk request {
+30 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+30 silly audit   '@emnapi/core': [ '1.10.0' ],
+30 silly audit   '@emnapi/runtime': [ '1.10.0' ],
+30 silly audit   '@emnapi/wasi-threads': [ '1.2.1' ],
+30 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+30 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+30 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+30 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+30 silly audit   '@napi-rs/wasm-runtime': [ '1.1.5' ],
+30 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+30 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+30 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+30 silly audit   '@oxc-project/types': [ '0.133.0' ],
+30 silly audit   '@rolldown/binding-android-arm64': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.3' ],
+30 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.3' ],
+30 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+30 silly audit   '@tybys/wasm-util': [ '0.10.2' ],
+30 silly audit   '@vitejs/plugin-react': [ '6.0.2' ],
+30 silly audit   'agent-base': [ '6.0.2' ],
+30 silly audit   'any-promise': [ '1.3.0' ],
+30 silly audit   anymatch: [ '3.1.3' ],
+30 silly audit   arg: [ '5.0.2' ],
+30 silly audit   asynckit: [ '0.4.0' ],
+30 silly audit   autoprefixer: [ '10.5.0' ],
+30 silly audit   axios: [ '1.17.0' ],
+30 silly audit   'baseline-browser-mapping': [ '2.10.35' ],
+30 silly audit   'binary-extensions': [ '2.3.0' ],
+30 silly audit   braces: [ '3.0.3' ],
+30 silly audit   browserslist: [ '4.28.2' ],
+30 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+30 silly audit   'camelcase-css': [ '2.0.1' ],
+30 silly audit   'caniuse-lite': [ '1.0.30001797' ],
+30 silly audit   chokidar: [ '3.6.0' ],
+30 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+30 silly audit   'combined-stream': [ '1.0.8' ],
+30 silly audit   commander: [ '4.1.1' ],
+30 silly audit   cookie: [ '1.1.1' ],
+30 silly audit   cssesc: [ '3.0.0' ],
+30 silly audit   debug: [ '4.4.3' ],
+30 silly audit   'delayed-stream': [ '1.0.0' ],
+30 silly audit   'detect-libc': [ '2.1.2' ],
+30 silly audit   didyoumean: [ '1.2.2' ],
+30 silly audit   dlv: [ '1.1.3' ],
+30 silly audit   'dunder-proto': [ '1.0.1' ],
+30 silly audit   'electron-to-chromium': [ '1.5.371' ],
+30 silly audit   'es-define-property': [ '1.0.1' ],
+30 silly audit   'es-errors': [ '1.3.0' ],
+30 silly audit   'es-object-atoms': [ '1.1.2' ],
+30 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+30 silly audit   escalade: [ '3.2.0' ],
+30 silly audit   'fast-glob': [ '3.3.3' ],
+30 silly audit   fastq: [ '1.20.1' ],
+30 silly audit   'fill-range': [ '7.1.1' ],
+30 silly audit   'follow-redirects': [ '1.16.0' ],
+30 silly audit   'form-data': [ '4.0.5' ],
+30 silly audit   'fraction.js': [ '5.3.4' ],
+30 silly audit   fsevents: [ '2.3.3' ],
+30 silly audit   'function-bind': [ '1.1.2' ],
+30 silly audit   'get-intrinsic': [ '1.3.0' ],
+30 silly audit   'get-proto': [ '1.0.1' ],
+30 silly audit   gopd: [ '1.2.0' ],
+30 silly audit   'has-symbols': [ '1.1.0' ],
+30 silly audit   'has-tostringtag': [ '1.0.2' ],
+30 silly audit   hasown: [ '2.0.4' ],
+30 silly audit   'https-proxy-agent': [ '5.0.1' ],
+30 silly audit   'is-binary-path': [ '2.1.0' ],
+30 silly audit   'is-core-module': [ '2.16.2' ],
+30 silly audit   'is-extglob': [ '2.1.1' ],
+30 silly audit   'is-glob': [ '4.0.3' ],
+30 silly audit   'is-number': [ '7.0.0' ],
+30 silly audit   jiti: [ '1.21.7' ],
+30 silly audit   lightningcss: [ '1.32.0' ],
+30 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+30 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+30 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+30 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+30 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+30 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+30 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+30 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+30 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+30 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+30 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+30 silly audit   lilconfig: [ '3.1.3' ],
+30 silly audit   'lines-and-columns': [ '1.2.4' ],
+30 silly audit   'math-intrinsics': [ '1.1.0' ],
+30 silly audit   merge2: [ '1.4.1' ],
+30 silly audit   micromatch: [ '4.0.8' ],
+30 silly audit   'mime-db': [ '1.52.0' ],
+30 silly audit   'mime-types': [ '2.1.35' ],
+30 silly audit   ms: [ '2.1.3' ],
+30 silly audit   mz: [ '2.7.0' ],
+30 silly audit   nanoid: [ '3.3.12' ],
+30 silly audit   'node-releases': [ '2.0.47' ],
+30 silly audit   'normalize-path': [ '3.0.0' ],
+30 silly audit   'object-assign': [ '4.1.1' ],
+30 silly audit   'object-hash': [ '3.0.0' ],
+30 silly audit   'path-parse': [ '1.0.7' ],
+30 silly audit   picocolors: [ '1.1.1' ],
+30 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+30 silly audit   pify: [ '2.3.0' ],
+30 silly audit   pirates: [ '4.0.7' ],
+30 silly audit   postcss: [ '8.5.15' ],
+30 silly audit   'postcss-import': [ '15.1.0' ],
+30 silly audit   'postcss-js': [ '4.1.0' ],
+30 silly audit   'postcss-load-config': [ '6.0.1' ],
+30 silly audit   'postcss-nested': [ '6.2.0' ],
+30 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+30 silly audit   'postcss-value-parser': [ '4.2.0' ],
+30 silly audit   'proxy-from-env': [ '2.1.0' ],
+30 silly audit   'queue-microtask': [ '1.2.3' ],
+30 silly audit   react: [ '19.2.7' ],
+30 silly audit   'react-dom': [ '19.2.7' ],
+30 silly audit   'react-router': [ '7.17.0' ],
+30 silly audit   'react-router-dom': [ '7.17.0' ],
+30 silly audit   'read-cache': [ '1.0.0' ],
+30 silly audit   readdirp: [ '3.6.0' ],
+30 silly audit   resolve: [ '1.22.12' ],
+30 silly audit   reusify: [ '1.1.0' ],
+30 silly audit   rolldown: [ '1.0.3' ],
+30 silly audit   'run-parallel': [ '1.2.0' ],
+30 silly audit   scheduler: [ '0.27.0' ],
+30 silly audit   'set-cookie-parser': [ '2.7.2' ],
+30 silly audit   'source-map-js': [ '1.2.1' ],
+30 silly audit   sucrase: [ '3.35.1' ],
+30 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+30 silly audit   tailwindcss: [ '3.4.19' ],
+30 silly audit   thenify: [ '3.3.1' ],
+30 silly audit   'thenify-all': [ '1.6.0' ],
+30 silly audit   tinyglobby: [ '0.2.17' ],
+30 silly audit   fdir: [ '6.5.0' ],
+30 silly audit   'to-regex-range': [ '5.0.1' ],
+30 silly audit   'ts-interface-checker': [ '0.1.13' ],
+30 silly audit   tslib: [ '2.8.1' ],
+30 silly audit   'update-browserslist-db': [ '1.2.3' ],
+30 silly audit   'util-deprecate': [ '1.0.2' ],
+30 silly audit   vite: [ '8.0.16' ]
+30 silly audit }
+31 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 0ms (cache hit)
+32 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz 0ms (cache hit)
+33 http cache axios@https://registry.npmjs.org/axios/-/axios-1.17.0.tgz 1ms (cache hit)
+34 http cache react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.17.0.tgz 0ms (cache hit)
+35 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 0ms (cache hit)
+36 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.15.tgz 0ms (cache hit)
+37 http cache autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.0.tgz 0ms (cache hit)
+38 http cache react@https://registry.npmjs.org/react/-/react-19.2.7.tgz 0ms (cache hit)
+39 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 0ms (cache hit)
+40 http cache @rolldown/binding-win32-x64-msvc@https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz 0ms (cache hit)
+41 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+42 http cache vite@https://registry.npmjs.org/vite/-/vite-8.0.16.tgz 0ms (cache hit)
+43 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz. Extracting by manifest.
+44 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz. Extracting by manifest.
+45 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.17.0.tgz. Extracting by manifest.
+46 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.17.0.tgz. Extracting by manifest.
+47 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz. Extracting by manifest.
+48 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.15.tgz. Extracting by manifest.
+49 silly tarball no local data for autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.0.tgz. Extracting by manifest.
+50 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.7.tgz. Extracting by manifest.
+51 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz. Extracting by manifest.
+52 silly tarball no local data for @rolldown/binding-win32-x64-msvc@https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz. Extracting by manifest.
+53 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+54 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-8.0.16.tgz. Extracting by manifest.
+55 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.17.0.tgz 251ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.0.tgz 773ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.2.tgz 916ms (cache miss)
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1100ms
+59 silly audit report {}
+60 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.15.tgz 1039ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 1079ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.7.tgz 1413ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.17.0.tgz 3882ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.0.16.tgz 3903ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 4260ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz 5961ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 9364ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.3.tgz 12619ms (cache miss)
+69 silly CHANGE node_modules/@vitejs/plugin-react
+70 silly CHANGE node_modules/tailwindcss
+71 silly CHANGE node_modules/react-router-dom
+72 silly CHANGE node_modules/react-dom
+73 silly CHANGE node_modules/postcss
+74 silly CHANGE node_modules/axios
+75 silly CHANGE node_modules/vite
+76 silly ADD node_modules/vite/node_modules/picomatch
+77 silly CHANGE node_modules/react
+78 silly CHANGE node_modules/autoprefixer
+79 silly CHANGE node_modules/@rolldown/binding-win32-x64-msvc
+80 silly REMOVE node_modules/@emnapi/wasi-threads
+81 silly REMOVE node_modules/tslib
+82 silly CHANGE node_modules/lightningcss-win32-x64-msvc
+83 verbose cwd D:\bookstore-premium
+84 verbose os Windows_NT 10.0.22631
+85 verbose node v24.13.0
+86 verbose npm  v11.16.0
+87 verbose exit 0
+88 info ok

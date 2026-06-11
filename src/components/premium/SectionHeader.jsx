@@ -1,0 +1,1 @@
+export default function SectionHeader({eyebrow,title,action}){return <div className="mb-8 flex flex-wrap items-end justify-between gap-4"><div>{eyebrow&&<p className="font-black uppercase tracking-[.2em] text-gold-500">{eyebrow}</p>}<h2 className="section-title">{title}</h2></div>{action}</div>}

@@ -1,0 +1,33 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\User\.npmrc
+5 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install npm@latest
+7 verbose argv "install" "--global" "npm@latest"
+8 verbose logfile logs-max:10 dir:D:\bookstore-premium\npm-cache\_logs\2026-06-10T17_41_36_325Z-
+9 verbose logfile D:\bookstore-premium\npm-cache\_logs\2026-06-10T17_41_36_325Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmjs.org/npm 686ms (cache miss)
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly packumentCache corgi:https://registry.npmjs.org/npm cache-miss
+14 http cache https://registry.npmjs.org/npm 15ms (cache hit)
+15 silly packumentCache corgi:https://registry.npmjs.org/npm set size:2404455 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest npm@11.16.0
+18 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/npm 2399ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+21 silly placeDep ROOT npm@11.16.0 OK for:  want: 11.16.0
+22 silly reify moves {}
+23 http cache npm@https://registry.npmjs.org/npm/-/npm-11.16.0.tgz 0ms (cache hit)
+24 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-11.16.0.tgz. Extracting by manifest.
+25 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-11.16.0.tgz 7684ms (cache miss)
+26 silly ADD node_modules/npm
+27 verbose cwd D:\bookstore-premium
+28 verbose os Windows_NT 10.0.22631
+29 verbose node v24.13.0
+30 verbose npm  v11.6.2
+31 verbose exit 0
+32 info ok

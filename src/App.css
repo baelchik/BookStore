@@ -1,0 +1,28 @@
+.page-transition {
+  animation: fadeIn .24s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.text-gradient-premium {
+  background: linear-gradient(135deg, #214a35, #a97824, #b85d3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: rgba(255, 253, 248, .82);
+  border: 1px solid rgba(232, 221, 205, .92);
+  backdrop-filter: blur(16px);
+}
